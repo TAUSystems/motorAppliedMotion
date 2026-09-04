@@ -19,7 +19,7 @@ Adapted from ACS MCB-4B driver by Mark Rivers
 #include <asynOctetSyncIO.h>
 
 #include <epicsExport.h>
-#include "StepperDriver.h"
+#include "appliedMotionDriver.h"
 
 #define NINT(f) (int)((f)>0 ? (f)+0.5 : (f)-0.5)
 
