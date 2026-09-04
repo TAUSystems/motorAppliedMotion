@@ -1,4 +1,4 @@
 # Applied Motion driver support.
 
-registrar(appliedMotionRegister)
+registrar(StepperRegister)
 
