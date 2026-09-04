@@ -19,7 +19,7 @@ LIBRARY_IOC += motorAppliedMotion
 DBD += motorAppliedMotion.dbd
 
 # specify all source files to be compiled and added to the library
-motorAppliedMotion_SRCS += appliedMotionDriver.cpp
+motorAppliedMotion_SRCS += StepperDriver.cpp
 
 motorAppliedMotion_LIBS += motor asyn
 motorAppliedMotion_LIBS += $(EPICS_BASE_IOC_LIBS)
